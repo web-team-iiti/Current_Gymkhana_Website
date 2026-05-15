@@ -14,27 +14,29 @@ import dhruv from "../../../../public/assests/clubHeads/photos/dhruv.png";
 import cfa_fin from "../../../../public/assests/clubHeads/photos/cfafin.jpg";
 import cfa_overall from "../../../../public/assests/clubHeads/photos/CFA(Overall and Analytics Head).jpg";
 import concreate from "../../../../public/assests/clubHeads/photos/Concreate.jpg";
-import cyn from "../../../../public/assests/clubHeads/photos/Cynaptics.jpg";
-import ivdc from "../../../../public/assests/clubHeads/photos/IVDC.jpg";
+import cyn from "../../../../public/assests/clubHeads/photos/Cynaptics.webp";
+import ivdc from "../../../../public/assests/clubHeads/photos/IVDC.jpeg";
 import gdsc from "../../../../public/assests/clubHeads/photos/gdsc.jpg";
 import pclub_cs from "../../../../public/assests/clubHeads/photos/PClub(Cybersecurity).jpg";
 import robo from "../../../../public/assests/clubHeads/photos/Robotics.jpg";
 import elec from "../../../../public/assests/clubHeads/photos/elec.jpg";
-import astro from "../../../../public/assests/clubHeads/photos/TheAstronomyClub.png";
-import aero from "../../../../public/assests/clubHeads/photos/mrunal.jpeg";
-import Ayush from "../../../../public/assests/clubHeads/photos/Ayush.png";
+import astro from "../../../../public/assests/clubHeads/photos/TheAstronomyClub.jpg";
+import aero from "../../../../public/assests/clubHeads/photos/Sibasish_Aeromodelling.jpg";
+import Tanvi from "../../../../public/assests/clubHeads/photos/Tanvi.jpg";
 import Naren from "../../../../public/assests/clubHeads/photos/PClub(Competitive Programming).jpeg";
 import Quantum from "../../../../public/assests/clubHeads/photos/Quantum.jpg";
 import web from "../../../../public/assests/clubHeads/photos/web team.jpg";
-
-
+import Biocrats from "../../../../public/assests/clubHeads/photos/Biocrats.jpg";
+import Vedant from "../../../../public/assests/clubHeads/photos/Vedant.jpg";
+import Shubham from "../../../../public/assests/clubHeads/photos/Shubham.jpg";
+import nidarsana from "../../../../public/assests/clubHeads/photos/nidarsana.jpg";
 
 
 export default function Hero() {
   const clubArr = [
     {
       club_name: "Aeromodelling",
-      head: "Mrunal Nandpure",
+      head: "Sibasish Barik",
       post: "Head",
       img: aero,
       club_insta: "https://www.instagram.com/aeroclub_iiti/",
@@ -43,7 +45,7 @@ export default function Hero() {
     },
     {
       club_name: "Astronomy",
-      head: "Keshav Aggarval",
+      head: "Parul Pahurkar",
       post: "Head",
       img: astro,
       club_insta:  "https://www.instagram.com/astronomyclub_iiti/",
@@ -52,34 +54,34 @@ export default function Hero() {
     },
     {
       club_name: "CAE",
-      head: "Sameer Lakkad",
+      head: "Adinath Apte",
       img: cae,
-      post: "Head",
+      post: "President",
       club_insta: "https://www.instagram.com/caeclub_iiti/",
       club_lin: "https://www.linkedin.com/company/cae-club-iit-indore/",
       website: "",
     },
-    {
-      club_name: "CFA(Overall and Analytics Dept.)",
-      head: "Prasoon Pandey",
-      post: "Head",
-      img: cfa_overall,
-      club_insta: "https://instagram.com/cfaclub_iiti?igshid=MzRlODBiNWFlZA==",
-      club_lin: "https://www.linkedin.com/company/cfa-club-iit-indore/",
-      website: "",
-    },
-    {
-      club_name: "CFA(Finance Dept.)",
-      head: "Shivam Sharma",
-      post: "Head",
-      img: cfa_fin,
-      club_insta: "https://instagram.com/cfaclub_iiti?igshid=MzRlODBiNWFlZA==",
-      club_lin: "https://www.linkedin.com/company/cfa-club-iit-indore/",
-      website: "",
-    },
+    // {
+    //   club_name: "CFA(Overall and Analytics Dept.)",
+    //   head: "Prasoon Pandey",
+    //   post: "Head",
+    //   img: cfa_overall,
+    //   club_insta: "https://instagram.com/cfaclub_iiti?igshid=MzRlODBiNWFlZA==",
+    //   club_lin: "https://www.linkedin.com/company/cfa-club-iit-indore/",
+    //   website: "",
+    // },
+    // {
+    //   club_name: "CFA(Finance Dept.)",
+    //   head: "Shivam Sharma",
+    //   post: "Head",
+    //   img: cfa_fin,
+    //   club_insta: "https://instagram.com/cfaclub_iiti?igshid=MzRlODBiNWFlZA==",
+    //   club_lin: "https://www.linkedin.com/company/cfa-club-iit-indore/",
+    //   website: "",
+    // },
     {
       club_name: "Concreate Club",
-      head: "Harsh Sharma",
+      head: "Rajnish Bairwa",
       post: "Head",
       img: concreate,
       club_insta: "https://www.instagram.com/concreate_iiti/",
@@ -88,8 +90,8 @@ export default function Hero() {
     },
     {
       club_name: "Electronics Club",
-      head: "Pulkit Gupta",
-      post: "Head",
+      head: "Advay Kunte",
+      post: "President",
       club_insta: "https://www.instagram.com/electronics_club_iiti/",
       club_lin: "https://www.linkedin.com/company/elecclub-iit-indore/mycompany/",
       website: "",
@@ -97,8 +99,8 @@ export default function Hero() {
     },
     {
       club_name: "Cynaptics",
-      head: "Arnav Jain",
-      post: "Head",
+      head: "Harshvardhan Choudhary",
+      post: "President",
       img: cyn,
       club_insta: "https://www.instagram.com/cynapticsclubiiti/",
       club_lin: "https://www.linkedin.com/company/cynaptics-club-iit-indore/",
@@ -115,79 +117,90 @@ export default function Hero() {
     },
     {
       club_name: "Gymkhana Web Team",
-      head: "Devesh Lokare",
+      head: "Yash Vardhan Solanki",
       post: "Head",
       img: web,
-     
     },
     {
-      club_name: "IVDC( Overall and Hardware )",
-      head: "Arjun S Nair",
-      post: "Head",
+      club_name: "Infinitrix - The Math Club",
+      head: "Nidarsana M",
+      post: "President",
+      club_insta: "https://www.instagram.com/math_club_iiti/",
+      img: nidarsana,
+      club_lin: "https://www.linkedin.com/in/math-club-iiti/",
+      website: "",
+    },
+    {
+      club_name: "IVDC",
+      head: "Nambiar Anand",
+      post: "President",
       club_insta: "https://www.instagram.com/ivdc_iiti/",
       img: ivdc,
       club_lin: "https://www.linkedin.com/company/ivdc-iiti/",
       website: "",
     },
-    
     {
       club_name: "Metacryst",
-      head: "Dhruv Jain",
+      head: "Shubham prajapati",
       post: "Head",
-      img: dhruv,
+      img: Shubham,
       club_insta:
         "https://instagram.com/metacryst_iiti?igshid=MzNlNGNkZWQ4Mg==",
       club_lin: "https://www.linkedin.com/company/metacryst-club-iit-indore/",
       website: "http://metacryst.iiti.ac.in/",
     },
     {
-      club_name: "Pclub(Cybersecurity division)",
-      head: "Siddhesh Waje",
+      club_name: "Pclub",
+      head: "Krishay Rathaure",
       img: pclub_cs,
-      post: "Head",
-      club_insta: "https://www.instagram.com/pclub_iiti/",
-     
-      club_lin: "https://www.linkedin.com/company/progclub-iiti/",
-      website: "http://progclub.iiti.ac.in/",
-    },
-    {
-      club_name: "Pclub(CP division)",
-      head: "Naren Sai",
-      post: "Head",
-      img: Naren,
+      post: "President, Cybersecurity Division",
       club_insta: "https://www.instagram.com/pclub_iiti/",
       club_lin: "https://www.linkedin.com/company/progclub-iiti/",
       website: "http://progclub.iiti.ac.in/",
     },
     {
-      club_name: "Pclub(Software development division)",
-      head: "Ayush Awasthi",
-      post: "Head",
-      img: Ayush,
+      club_name: "Pclub",
+      head: "Vedant Jain",
+      post: "President, CP Division",
+      img: Vedant,
+      club_insta: "https://www.instagram.com/pclub_iiti/",
+      club_lin: "https://www.linkedin.com/company/progclub-iiti/",
+      website: "http://progclub.iiti.ac.in/",
+    },
+    {
+      club_name: "Pclub",
+      head: "Tanvi Agarwal",
+      post: "President, Software Division",
+      img: Tanvi,
       club_insta: "https://www.instagram.com/pclub_iiti/",
       club_lin: "https://www.linkedin.com/company/progclub-iiti/",
       website: "http://progclub.iiti.ac.in/",
     },
     {
       club_name: "Quantum Computing",
-      head: "Mansi Singh",
+      head: "Arham Aneeq",
       img: Quantum,
-      post:"Head",
+      post:"President",
       club_insta: "https://www.instagram.com/quantum_computing_iiti/",
       club_lin: "https://www.linkedin.com/company/quantumcomputingiiti/",
       website: "",
     },
     {
       club_name: "Robotics",
-      head: "Bhawna Chaudhary",
-      post: "Head",
+      head: "Tejas Santosh Bhavekar",
+      post: "President",
       img: robo,
       club_insta: "https://instagram.com/roboticsclub_iitindore",
       club_lin: "https://www.linkedin.com/company/robotics-club-iit-indore/",
       website: "",
     },
-    
-    
+    {
+      club_name: "Biocrats Club",
+      head: "Anjali Singh",
+      post: "Club Head",
+      img: Biocrats,
+      // Add the correct image import if available
+    },
   ];
   return (
     <>

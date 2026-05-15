@@ -21,8 +21,10 @@ import snt from "../../../../public/assests/clubs/logo/Science and technology co
 import astro from "../../../../public/assests/clubs/logo/The_Astronomy_Club.jpg";
 import aeromodelling from "../../../../public/assests/clubs/logo/Aeromodelling .jpg";
 import webgym from "../../../../public/assests/clubs/logo/Web_Team_Logo.png";
-
+import biocrats from "../../../../public/assests/clubs/logo/Logo Biocrats.jpg"; 
+import infinitrix from "../../../../public/assests/clubs/logo/Infinitrix.jpg"; 
 import HeadsPage from "../clubHeads/page";
+
 
 import { before } from "node:test";
 
@@ -37,6 +39,12 @@ export default function Hero() {
       "more":"https://www.instagram.com/aeroclub_iiti/",
       "title": "The Aeromodelling Club",
       "imageSrc":aeromodelling ,
+
+    },
+    {
+      "more":"https://www.instagram.com/biocrats_iiti/",
+      "title": "Biocrats Club",
+      "imageSrc":biocrats ,
 
     },
     {
@@ -73,6 +81,11 @@ export default function Hero() {
       "more":"https://www.instagram.com/gymkhana_iiti/",
       "title": "Gymkhana Web Team",
       "imageSrc": webgym,
+    },
+    {
+      "more":"https://www.instagram.com/math_club_iiti/",
+      "title": "Infinitrix - The Math Club",
+      "imageSrc": infinitrix,
     },
     {
       "more":"https://www.instagram.com/ivdc_iiti/",

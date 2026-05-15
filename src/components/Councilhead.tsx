@@ -18,7 +18,7 @@ export default function CounciHeads() {
             <div className="space-y-4 text-center divide-y divide-gray-700">
               <div className="my-2 space-y-1">
                 <h2 className="text-xl font-semibold sm:text-2xl  text-blue-900 ">
-                  SANKET PANIGRAHI
+                  NAVEEN SHARMA
                 </h2>
                 <p className="px-2 text-xs sm:text-base dark:text-gray-400">
                   PRESIDENT <br/> STUDENT`S GYMKHANA
@@ -27,7 +27,7 @@ export default function CounciHeads() {
               <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="https://www.linkedin.com/in/sanket-panigrahi-59011625b/"
+                  href="http://www.linkedin.com/in/phynaveen"
                   aria-label="Linkedin"
                   className="p-2 rounded-md"
                   target="_blank"
@@ -81,7 +81,7 @@ export default function CounciHeads() {
             <div className="space-y-4 text-center divide-y divide-gray-700">
               <div className="my-2 space-y-1">
                 <h2 className="text-xl font-semibold sm:text-2xl text-blue-900">
-                  SHIVANSH MALPANI
+                  APOORV SINGH 
                 </h2>
                 <p className="px-5 text-xs sm:text-base dark:text-gray-400">
                   GENERAL SECRETARY <br/> CULTURALS
@@ -90,7 +90,7 @@ export default function CounciHeads() {
               <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="https://www.linkedin.com/in/shivansh-malpani-5a8374291/"
+                  href="https://www.linkedin.com/in/apoorv-singh-18758b287"
                   aria-label="Linkedin"
                   className="p-2 rounded-md "
                   target="_blank"
@@ -144,7 +144,7 @@ export default function CounciHeads() {
             <div className="space-y-4 text-center divide-y divide-gray-700">
               <div className="my-2 space-y-1">
                 <h2 className="text-xl font-semibold sm:text-2xl text-blue-900">
-                  B RITHVIK
+                  KHUSH SINGLA
                 </h2>
                 <p className="px-5 text-xs sm:text-base dark:text-gray-400">
                   GENERAL SECRETARY <br/> ACADEMIC AFFAIRS UG
@@ -153,7 +153,7 @@ export default function CounciHeads() {
 			  <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="https://www.linkedin.com/in/rithvik-balabhadra-41bb80272/"
+                  href="https://www.linkedin.com/in/khush-singla-858253280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                   aria-label="Linkedin"
                   className="p-2 rounded-md "
                   target="_blank"
@@ -198,7 +198,7 @@ export default function CounciHeads() {
           {/* Gs Hostel  */}
           <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%]">
             <Image
-              src="/GS Hostel.jpg"
+              src="/GS Hostel.jpeg"
               alt="GS Hostel Affairs"
               width={100}
               height={100}
@@ -207,7 +207,7 @@ export default function CounciHeads() {
             <div className="space-y-4 text-center divide-y divide-gray-700">
               <div className="my-3 space-y-4">
                 <h2 className="text-xl font-semibold sm:text-2xl text-blue-900">
-                  SAURAV SHARMA
+                  ATHARVAKANT
                 </h2>
                 <p className="px-5 text-xs sm:text-base dark:text-gray-400">
                   GENERAL SECRETARY <br/> HOSTEL AFFAIRS
@@ -216,7 +216,7 @@ export default function CounciHeads() {
               <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="https://www.linkedin.com/in/saurav-sharma-028b18228/"
+                  href="#"
                   target="_blank"
                   aria-label="Linkedin"
                   className="p-2 rounded-md "
@@ -269,7 +269,7 @@ export default function CounciHeads() {
             <div className="space-y-4 text-center divide-y divide-gray-700">
               <div className="my-2 space-y-1">
                 <h2 className="text-xl font-semibold sm:text-2xl text-blue-900">
-                  GAURAV RAJPUT
+                  SHUBHAM KUMAR
                 </h2>
                 <p className="px-5 text-xs sm:text-base dark:text-gray-400">
                   GENERAL SECRETARY <br/> MESS, CAFETARIA AND ALLIED SERVICES
@@ -278,7 +278,7 @@ export default function CounciHeads() {
               <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="https://www.linkedin.com/in/gaurav-rajput-0584691b0/"
+                  href="https://www.linkedin.com/in/shubham-kumar-6a863423b"
                   target="_blank"
                   aria-label="Linkedin"
                   className="p-2 rounded-md "
@@ -331,7 +331,7 @@ export default function CounciHeads() {
             <div className="space-y-4 text-center divide-y divide-gray-700">
               <div className="my-4 space-y-5">
                 <h2 className="text-xl font-semibold sm:text-2xl text-blue-900">
-                  SHIVAM SUNDRAM
+                  SATYAJEET PANI
                 </h2>
                 <p className="px-5 text-xs sm:text-base dark:text-gray-400">
                   GENERAL SECRETARY <br/> SCIENCE AND TECHNOLGY
@@ -340,7 +340,7 @@ export default function CounciHeads() {
               <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="https://www.linkedin.com/in/shivam-sundram-864988251/"
+                  href="https://www.linkedin.com/in/satyajeet-pani-iiti?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   aria-label="Linkedin"
                   className="p-2 rounded-md "
@@ -393,7 +393,7 @@ export default function CounciHeads() {
             <div className="space-y-4 text-center divide-y divide-gray-700">
               <div className="my-2 space-y-1">
                 <h2 className="text-xl font-semibold sm:text-2xl text-blue-900">
-                  ADI RAJ
+                 SAURABH YADAV 
                 </h2>
                 <p className="px-5 text-xs sm:text-base dark:text-gray-400">
                   GENERAL SECRETARY <br/> ACADEMIC AFFAIRS PG
@@ -402,7 +402,7 @@ export default function CounciHeads() {
 			  <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="https://www.linkedin.com/in/adi-raj-410290292/"
+                  href="https://www.linkedin.com/in/saurabh-yadav-a588a0229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   aria-label="Linkedin"
                   className="p-2 rounded-md "
@@ -456,7 +456,7 @@ export default function CounciHeads() {
             <div className="space-y-4 text-center divide-y divide-gray-700">
               <div className="my-2 space-y-1">
                 <h2 className="text-xl font-semibold sm:text-2xl text-blue-900">
-                  K NIKETH REDDY
+                  NAWED ASHRAF 
                 </h2>
                 <p className="px-2 text-xs sm:text-base dark:text-gray-400">
                   GENERAL SECRETARY <br/> CONSULTING, OUTREACH AND ALUMNI
@@ -465,7 +465,7 @@ export default function CounciHeads() {
               <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="https://www.linkedin.com/in/kodudula-niketh-reddy-42948b259/"
+                  href="https://www.linkedin.com/in/nawed-ashraf-2ba031299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   aria-label="Linkedin"
                   className="p-2 rounded-md "
@@ -510,7 +510,7 @@ export default function CounciHeads() {
           {/* Gs sports  */}
           <div className="flex bg-[#abdbe3]  flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12  border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%]">
             <Image
-              src="/GS Sports.jpg"
+              src="/GS Sports.png"
               alt=" GS Sports Affairs"
               width={100}
               height={100}
@@ -519,7 +519,7 @@ export default function CounciHeads() {
             <div className="space-y-4 text-center divide-y divide-gray-700">
               <div className="my-4 space-y-4">
                 <h2 className="text-xl font-semibold sm:text-2xl text-blue-900">
-                  NIKHIL ESWARAN
+                  PRAYAG LAKHANI
                 </h2>
                 <p className="px-5 text-xs sm:text-base dark:text-gray-400">
                   GENERAL SECRETARY <br/> SPORTS AFFAIRS
@@ -528,7 +528,7 @@ export default function CounciHeads() {
               <div className="flex justify-center pt-2 space-x-4 align-center text-blue-900">
                 <a
                   rel="noopener noreferrer"
-                  href="https://www.linkedin.com/in/nikhil-eswaran-272429266/"
+                  href="https://www.linkedin.com/in/prayag-lakhani-58ab43289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   aria-label="Linkedin"
                   className="p-2 rounded-md "

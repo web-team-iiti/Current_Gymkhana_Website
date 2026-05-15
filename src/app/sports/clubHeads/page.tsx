@@ -12,18 +12,19 @@ import li_icon from "../../../../public/assests/clubHeads/social_logo/li_blackLo
 import site_icon from "../../../../public/assests/clubHeads/social_logo/site.webp";
 
 import Header from "./header";
-import badminton from "../../../../public/assests/sports_head/Badminton.jpg";
-import chess from "../../../../public/assests/sports_head/chess.jpg";
-import cricket from "../../../../public/assests/sports_head/cricket.jpg";
-import football from "../../../../public/assests/sports_head/football.jpg";
-import squash from "../../../../public/assests/sports_head/squash.jpg";
-import tt from "../../../../public/assests/sports_head/tt.jpg";
-import aviral from "../../../../public/assests/sports_head/Aviral.jpg";
-import mukul from "../../../../public/assests/sports_head/mukul.jpg";
-import aquatics from "../../../../public/assests/sports_head/aquatics.jpg"
+import badminton from "../../../../public/assests/sports_head/Siddhant_Gupta_Badminton.jpeg";
+import chess from "../../../../public/assests/sports_head/Sarang_Jagdish_Chess_Club.jpeg";
+import cricket from "../../../../public/assests/sports_head/Monik_Cricket club.jpg";
+import football from "../../../../public/assests/sports_head/Muhamed_Nihal_Football_club.jpg";
+import squash from "../../../../public/assests/sports_head/Samarth_Sharma_Squash_Club.jpg";
+import tt from "../../../../public/assests/sports_head/Kushagra_Shrikhande_TableTennisClub.jpg";
+import Athletics from "../../../../public/assests/sports_head/Sanjay_S_Athletics_Club.jpg";
+import aquatics from "../../../../public/assests/sports_head/Ommkar_AquaticsClub.jpg"
+//needupdate
 import yoga from "../../../../public/assests/sports_head/yoga and fitness .jpg"
-import basketball from "../../../../public/assests/sports_head/basketball.jpg"
-import volleyball from "../../../../public/assests/sports_head/volleyball.jpg"
+import basketball from "../../../../public/assests/sports_head/rahul_basketball.jpg"
+import volleyball from "../../../../public/assests/sports_head/Aman_Volleyball_club.jpg"
+import Lawn from "../../../../public/assests/sports_head/Akarsh_LawnTennis.jpeg"
 
 // import test, { before } from "node:test";
 
@@ -31,22 +32,20 @@ export default function Hero() {
   const clubArr = [
     {
       club_name: "Athletics Club",
-      head: "Mukul Ghunawat",
+      head: "Sanjay S",
       post: "Head",
-      img: mukul,
-     
+      img: Athletics,
     },
     {
       club_name: "Aquatics Club",
-      head: "Aaditya Deshpande",
+      head: "Ommkar Sahoo",
       post: "Head",
       img: aquatics,
-     
       website: "http://people.iiti.ac.in/~sports/aquatics/aquatics.php",
     },
     {
       club_name: "Badminton Club",
-      head: "Anshul Rathodia",
+      head: "Siddhant Gupta",
       post: "Head",
       img: badminton,
       club_insta: "https://www.instagram.com/badmintonclub_iiti/",
@@ -55,7 +54,7 @@ export default function Hero() {
     },
     {
       club_name: "Basketball Club",
-      head: "Neelesh Chourasia",
+      head: "Rahul",
       post: "Head",
       img: basketball,
       club_insta: "https://www.instagram.com/club_basketball_iiti/?hl=en",
@@ -64,7 +63,7 @@ export default function Hero() {
     },
     {
       club_name: "Chess Club",
-      head: "Saket Thamke",
+      head: "Sarang Jagdish",
       post: "Head",
       img: chess,
       club_insta: "https://www.instagram.com/theberserkers_iiti/",
@@ -73,7 +72,7 @@ export default function Hero() {
     },
     {
       club_name: "Cricket Club",
-      head: "Yogesh Patidar",
+      head: "Monik Dodiya",
       post: "Head",
       img: cricket,
       club_insta: "https://www.instagram.com/cricket_iiti/",
@@ -82,36 +81,32 @@ export default function Hero() {
     },
     {
       club_name: "Football Club",
-      head: "Biradhar Saketh",
+      head: "Muhamed Nihal",
       post: "Head",
       img: football,
       club_insta: "https://www.instagram.com/football_club_iiti/",
       club_lin: "#",
       website: "http://people.iiti.ac.in/~sports/",
     },
-    
     {
       club_name: "Squash Club",
-      head: "Yash Khare",
+      head: "Samarth Sharma",
       post: "Head",
       img: squash,
-      
       website: "http://people.iiti.ac.in/~sports/",
     },
-    
-    
     {
       club_name: "Tennis Club",
-      head: "Aviral Sharma",
+      head: "Akarsh",
       post: "Head",
-      img: aviral,
+      img: Lawn,
       club_insta: "https://www.instagram.com/tennis_iiti/",
       club_lin: "#",
       website: "",
     },
     {
       club_name: "Table Tennis Club",
-      head: "Samrudhhee",
+      head: "Kushagra Shrikhande",
       post: "Head",
       img: tt,
       club_insta: "https://www.instagram.com/table_tennis_iiti/",
@@ -120,7 +115,7 @@ export default function Hero() {
     },
     {
       club_name: "Volleyball Club",
-      head: "Akshat Mishra",
+      head: "Aman",
       post: "Head",
       img: volleyball,
       club_insta: "https://www.instagram.com/volleyball.iiti/?hl=en",
@@ -128,13 +123,11 @@ export default function Hero() {
       website: "http://people.iiti.ac.in/~sports/volleyball/volleyball.php",
     },
     {
-      club_name: "Yoga nad Fitness Club",
+      club_name: "Yoga and Fitness Club",
       head: "Gouriveni Gokul",
       post: "Head",
       img: yoga,
-      
     },
-    
   ];
   return (
     <>
