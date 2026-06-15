@@ -12,40 +12,44 @@ import li_icon from "../../../../public/assests/clubHeads/social_logo/li_blackLo
 import site_icon from "../../../../public/assests/clubHeads/social_logo/site.webp";
 
 import Header from "./header";
-import badminton from "../../../../public/assests/sports_head/Siddhant_Gupta_Badminton.jpeg";
-import chess from "../../../../public/assests/sports_head/Sarang_Jagdish_Chess_Club.jpeg";
-import cricket from "../../../../public/assests/sports_head/Monik_Cricket club.jpg";
-import football from "../../../../public/assests/sports_head/Muhamed_Nihal_Football_club.jpg";
-import squash from "../../../../public/assests/sports_head/Samarth_Sharma_Squash_Club.jpg";
-import tt from "../../../../public/assests/sports_head/Kushagra_Shrikhande_TableTennisClub.jpg";
-import Athletics from "../../../../public/assests/sports_head/Sanjay_S_Athletics_Club.jpg";
-import aquatics from "../../../../public/assests/sports_head/Ommkar_AquaticsClub.jpg"
-//needupdate
-import yoga from "../../../../public/assests/sports_head/yoga and fitness .jpg"
-import basketball from "../../../../public/assests/sports_head/rahul_basketball.jpg"
-import volleyball from "../../../../public/assests/sports_head/Aman_Volleyball_club.jpg"
-import Lawn from "../../../../public/assests/sports_head/Akarsh_LawnTennis.jpeg"
+import badminton from "../../../../public/assests/sports_head/Parv Khandelwal_club head_badminton club.png";
+import chess from "../../../../public/assests/sports_head/Shriram_ClubHead_ChessClub.jpg";
+import cricket from "../../../../public/assests/sports_head/SanyamBabel_ClubHead_Cricket.jpg";
+import football from "../../../../public/assests/sports_head/Aniket Baskey_Club Head_Football.jpg";
+import squash from "../../../../public/assests/sports_head/Paholpreat Kaur club head squash.jpg";
+import tt from "../../../../public/assests/sports_head/Aarush_club head_tabletennis.webp";
+import Athletics from "../../../../public/assests/sports_head/Ayush Raj_Club Head_Athletics Club.jpg";
+import aquatics from "../../../../public/assests/sports_head/Harshavardhan Pawar_Club Head_Aquatics Club.jpg";
+import basketball from "../../../../public/assests/sports_head/Swarit_Clubhead_Basketball.jpg";
+import volleyball from "../../../../public/assests/sports_head/Pramod_ClubHead_Volleyball.jpg";
+import hockey from "../../../../public/assests/sports_head/sethumadhav_clubhead_hockey.png";
+import cycling from "../../../../public/assests/sports_head/Krushna_Club-head_Cycling.jpg";
+import Lawn from "../../../../public/assests/sports_head/Kavin Krishnan S_Club Head_Tennis  Club - Kavin Krishnan S.jpg";
+import weightlifting from "../../../../public/assests/sports_head/gaurav.jpeg";
+import yoga from "../../../../public/assests/sports_head/yoga.jpeg";
 
+
+import nologo from "../../../../public/assests/sports/nologo.png"
 // import test, { before } from "node:test";
 
 export default function Hero() {
   const clubArr = [
     {
       club_name: "Athletics Club",
-      head: "Sanjay S",
+      head: "Ayush Raj",
       post: "Head",
       img: Athletics,
     },
     {
       club_name: "Aquatics Club",
-      head: "Ommkar Sahoo",
+      head: "Harshavardhan Pawar",
       post: "Head",
       img: aquatics,
       website: "http://people.iiti.ac.in/~sports/aquatics/aquatics.php",
     },
     {
       club_name: "Badminton Club",
-      head: "Siddhant Gupta",
+      head: "Parv Khandelwal",
       post: "Head",
       img: badminton,
       club_insta: "https://www.instagram.com/badmintonclub_iiti/",
@@ -54,7 +58,7 @@ export default function Hero() {
     },
     {
       club_name: "Basketball Club",
-      head: "Rahul",
+      head: "Swarit Porwal",
       post: "Head",
       img: basketball,
       club_insta: "https://www.instagram.com/club_basketball_iiti/?hl=en",
@@ -63,7 +67,7 @@ export default function Hero() {
     },
     {
       club_name: "Chess Club",
-      head: "Sarang Jagdish",
+      head: "Shriram Naik",
       post: "Head",
       img: chess,
       club_insta: "https://www.instagram.com/theberserkers_iiti/",
@@ -72,7 +76,7 @@ export default function Hero() {
     },
     {
       club_name: "Cricket Club",
-      head: "Monik Dodiya",
+      head: "Sanyam Babel",
       post: "Head",
       img: cricket,
       club_insta: "https://www.instagram.com/cricket_iiti/",
@@ -81,7 +85,7 @@ export default function Hero() {
     },
     {
       club_name: "Football Club",
-      head: "Muhamed Nihal",
+      head: "Aniket Baskey",
       post: "Head",
       img: football,
       club_insta: "https://www.instagram.com/football_club_iiti/",
@@ -90,14 +94,14 @@ export default function Hero() {
     },
     {
       club_name: "Squash Club",
-      head: "Samarth Sharma",
+      head: "Paholpreat Kaur",
       post: "Head",
       img: squash,
       website: "http://people.iiti.ac.in/~sports/",
     },
     {
       club_name: "Tennis Club",
-      head: "Akarsh",
+      head: "Kavin Krishnan S",
       post: "Head",
       img: Lawn,
       club_insta: "https://www.instagram.com/tennis_iiti/",
@@ -106,7 +110,7 @@ export default function Hero() {
     },
     {
       club_name: "Table Tennis Club",
-      head: "Kushagra Shrikhande",
+      head: "Aarush Bindod",
       post: "Head",
       img: tt,
       club_insta: "https://www.instagram.com/table_tennis_iiti/",
@@ -115,7 +119,7 @@ export default function Hero() {
     },
     {
       club_name: "Volleyball Club",
-      head: "Aman",
+      head: "Pramod",
       post: "Head",
       img: volleyball,
       club_insta: "https://www.instagram.com/volleyball.iiti/?hl=en",
@@ -124,9 +128,27 @@ export default function Hero() {
     },
     {
       club_name: "Yoga and Fitness Club",
-      head: "Gouriveni Gokul",
+      head: "Savan Gorasiya",
       post: "Head",
       img: yoga,
+    },
+    {
+      club_name: "Cycling Club",
+      head: "Krushna Satish More",
+      post: "Head",
+      img: cycling,
+    },
+    {
+      club_name: "Hockey Club",
+      head: "SetuMadhav",
+      post: "Head",
+      img: hockey,
+    },
+    {
+      club_name: "Weightlifting Club",
+      head: "Gaurav Tiwari",
+      post: "Head",
+      img: weightlifting,
     },
   ];
   return (

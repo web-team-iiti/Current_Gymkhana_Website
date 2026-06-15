@@ -31,6 +31,13 @@ function NavbarComponent() {
                 </Button>
               </Link>
             </DropdownItem>
+            <DropdownItem key="tech">
+              <Link href="/technicals/teams">
+                <Button className="text-base text-white bg-opacity-0 py-2 px-3 hover:underline hover:underline-offset-4 hover:decoration-yellow-300 hover:transition-all">
+                  TECHNICAL TEAMS
+                </Button>
+              </Link>
+            </DropdownItem>
             <DropdownItem key="cult">
               <Link href="/culturals/clubs">
                 <Button className="text-base text-white bg-opacity-0 py-2 px-3 hover:underline hover:underline-offset-4 hover:decoration-yellow-300 hover:transition-all">

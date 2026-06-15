@@ -12,31 +12,30 @@ import li_icon from "../../../../public/assests/clubHeads/social_logo/li_blackLo
 import cae from "../../../../public/assests/clubHeads/photos/CAE.jpg";
 import dhruv from "../../../../public/assests/clubHeads/photos/dhruv.png";
 import cfa_fin from "../../../../public/assests/clubHeads/photos/cfafin.jpg";
-import cfa_overall from "../../../../public/assests/clubHeads/photos/CFA(Overall and Analytics Head).jpg";
-import concreate from "../../../../public/assests/clubHeads/photos/Concreate.jpg";
-import cyn from "../../../../public/assests/clubHeads/photos/Cynaptics.webp";
-import ivdc from "../../../../public/assests/clubHeads/photos/IVDC.jpeg";
-import gdsc from "../../../../public/assests/clubHeads/photos/gdsc.jpg";
-import pclub_cs from "../../../../public/assests/clubHeads/photos/PClub(Cybersecurity).jpg";
-import robo from "../../../../public/assests/clubHeads/photos/Robotics.jpg";
-import elec from "../../../../public/assests/clubHeads/photos/elec.jpg";
-import astro from "../../../../public/assests/clubHeads/photos/TheAstronomyClub.jpg";
-import aero from "../../../../public/assests/clubHeads/photos/Sibasish_Aeromodelling.jpg";
-import Tanvi from "../../../../public/assests/clubHeads/photos/Tanvi.jpg";
-import Naren from "../../../../public/assests/clubHeads/photos/PClub(Competitive Programming).jpeg";
-import Quantum from "../../../../public/assests/clubHeads/photos/Quantum.jpg";
-import web from "../../../../public/assests/clubHeads/photos/web team.jpg";
-import Biocrats from "../../../../public/assests/clubHeads/photos/Biocrats.jpg";
-import Vedant from "../../../../public/assests/clubHeads/photos/Vedant.jpg";
-import Shubham from "../../../../public/assests/clubHeads/photos/Shubham.jpg";
-import nidarsana from "../../../../public/assests/clubHeads/photos/nidarsana.jpg";
-
+import cfa_overall from "../../../../public/assests/clubHeads/photos/VidushiRajhans_President_CFA.jpeg";
+import concreate from "../../../../public/assests/clubHeads/photos/Yug Prabhat_Head_Concreate.png";
+// import cyn from "../../../../public/assests/clubHeads/photos/Cynaptics.webp";
+import ivdc from "../../../../public/assests/clubHeads/photos/Tirth Vinodrai Gohil_President_IVDC.png";
+import gdsc from "../../../../public/assests/clubHeads/photos/S_Varshith_Reddy_GDG_co-Head.jpeg";
+import pclub_cs from "../../../../public/assests/clubHeads/photos/Akarsh_Raj_President_Cybersecurity_ProgrammingClub.jpg";
+import pclub_sw from "../../../../public/assests/clubHeads/photos/Kartikey Raghav_President_Software Division_Programming_Club.jpg";
+import robo from "../../../../public/assests/clubHeads/photos/Ananya Shubhangi Sinha_President_Robotics Club.jpeg";
+import elec from "../../../../public/assests/clubHeads/photos/DhananjayDhumal_President_ElectronicsClub.jpg";
+import astro from "../../../../public/assests/clubHeads/photos/ShreyAggarwal_Head_Astronomy.jpg";
+import aero from "../../../../public/assests/clubHeads/photos/chakrapani_head_aeromodelling.jpg";
+import Quantum from "../../../../public/assests/clubHeads/photos/Hemal_President_QC.jpg"; 
+import Biocrats from "../../../../public/assests/clubHeads/photos/AyushiRawat_ClubHead_BioCrats.jpeg";
+import infinitrix from "../../../../public/assests/clubHeads/photos/Ayinala Sri Nikesh_Head_Infinitrix.jpeg";
+import metacryst from "../../../../public/assests/clubHeads/photos/AntroVictor_Head_MetacrystClub.jpg";
+import pclub_cp from "../../../../public/assests/clubHeads/photos/Hrishabh Mittal_President CP Division_Programming Club.jpeg";
+import cynaptics from "../../../../public/assests/clubHeads/photos/YashBhamare_ClubHead_Cynaptics.jpg";
+import nologo from "../../../../public/assests/sports/nologo.png"
 
 export default function Hero() {
   const clubArr = [
     {
       club_name: "Aeromodelling",
-      head: "Sibasish Barik",
+      head: "B. Venkata Chakrapani",
       post: "Head",
       img: aero,
       club_insta: "https://www.instagram.com/aeroclub_iiti/",
@@ -45,7 +44,7 @@ export default function Hero() {
     },
     {
       club_name: "Astronomy",
-      head: "Parul Pahurkar",
+      head: "Shrey Aggarwal",
       post: "Head",
       img: astro,
       club_insta:  "https://www.instagram.com/astronomyclub_iiti/",
@@ -53,35 +52,26 @@ export default function Hero() {
       website: "",
     },
     {
-      club_name: "CAE",
-      head: "Adinath Apte",
-      img: cae,
+      club_name: "Rocketry Club",
+      head: "No Head Assigned",
+      img: nologo,
       post: "President",
       club_insta: "https://www.instagram.com/caeclub_iiti/",
       club_lin: "https://www.linkedin.com/company/cae-club-iit-indore/",
       website: "",
     },
-    // {
-    //   club_name: "CFA(Overall and Analytics Dept.)",
-    //   head: "Prasoon Pandey",
-    //   post: "Head",
-    //   img: cfa_overall,
-    //   club_insta: "https://instagram.com/cfaclub_iiti?igshid=MzRlODBiNWFlZA==",
-    //   club_lin: "https://www.linkedin.com/company/cfa-club-iit-indore/",
-    //   website: "",
-    // },
-    // {
-    //   club_name: "CFA(Finance Dept.)",
-    //   head: "Shivam Sharma",
-    //   post: "Head",
-    //   img: cfa_fin,
-    //   club_insta: "https://instagram.com/cfaclub_iiti?igshid=MzRlODBiNWFlZA==",
-    //   club_lin: "https://www.linkedin.com/company/cfa-club-iit-indore/",
-    //   website: "",
-    // },
+    {
+      club_name: "CFA",
+      head: "Vidushi Rajhans",
+      post: "Head",
+      img: cfa_overall,
+      club_insta: "https://instagram.com/cfaclub_iiti?igshid=MzRlODBiNWFlZA==",
+      club_lin: "https://www.linkedin.com/company/cfa-club-iit-indore/",
+      website: "",
+    },
     {
       club_name: "Concreate Club",
-      head: "Rajnish Bairwa",
+      head: "Yug Prabhat",
       post: "Head",
       img: concreate,
       club_insta: "https://www.instagram.com/concreate_iiti/",
@@ -90,7 +80,7 @@ export default function Hero() {
     },
     {
       club_name: "Electronics Club",
-      head: "Advay Kunte",
+      head: "Dhananjay Dhumal",
       post: "President",
       club_insta: "https://www.instagram.com/electronics_club_iiti/",
       club_lin: "https://www.linkedin.com/company/elecclub-iit-indore/mycompany/",
@@ -99,16 +89,16 @@ export default function Hero() {
     },
     {
       club_name: "Cynaptics",
-      head: "Harshvardhan Choudhary",
+      head: "Yash Bhamare",
       post: "President",
-      img: cyn,
+      img: cynaptics,
       club_insta: "https://www.instagram.com/cynapticsclubiiti/",
       club_lin: "https://www.linkedin.com/company/cynaptics-club-iit-indore/",
       website: "https://cynaptics.vercel.app/",
     },
     {
       club_name: "GDSC",
-      head: "Vedant Dinkar",
+      head: "S Varshith Reddy",
       post: "Head",
       img: gdsc,
       club_insta: "https://www.instagram.com/gdsc_iiti/",
@@ -116,23 +106,17 @@ export default function Hero() {
       website: "",
     },
     {
-      club_name: "Gymkhana Web Team",
-      head: "Yash Vardhan Solanki",
-      post: "Head",
-      img: web,
-    },
-    {
       club_name: "Infinitrix - The Math Club",
-      head: "Nidarsana M",
+      head: "Ayinala Sri Nikesh",
       post: "President",
       club_insta: "https://www.instagram.com/math_club_iiti/",
-      img: nidarsana,
+      img: infinitrix,
       club_lin: "https://www.linkedin.com/in/math-club-iiti/",
       website: "",
     },
     {
       club_name: "IVDC",
-      head: "Nambiar Anand",
+      head: "Tirth Vinodrai Gohil",
       post: "President",
       club_insta: "https://www.instagram.com/ivdc_iiti/",
       img: ivdc,
@@ -141,9 +125,9 @@ export default function Hero() {
     },
     {
       club_name: "Metacryst",
-      head: "Shubham prajapati",
+      head: "Antro Victor Santhyas P",
       post: "Head",
-      img: Shubham,
+      img: metacryst,
       club_insta:
         "https://instagram.com/metacryst_iiti?igshid=MzNlNGNkZWQ4Mg==",
       club_lin: "https://www.linkedin.com/company/metacryst-club-iit-indore/",
@@ -151,7 +135,7 @@ export default function Hero() {
     },
     {
       club_name: "Pclub",
-      head: "Krishay Rathaure",
+      head: "Akarsh Raj",
       img: pclub_cs,
       post: "President, Cybersecurity Division",
       club_insta: "https://www.instagram.com/pclub_iiti/",
@@ -160,25 +144,25 @@ export default function Hero() {
     },
     {
       club_name: "Pclub",
-      head: "Vedant Jain",
+      head: "Hrishabh Mittal",
       post: "President, CP Division",
-      img: Vedant,
+      img: pclub_cp,
       club_insta: "https://www.instagram.com/pclub_iiti/",
       club_lin: "https://www.linkedin.com/company/progclub-iiti/",
       website: "http://progclub.iiti.ac.in/",
     },
     {
       club_name: "Pclub",
-      head: "Tanvi Agarwal",
+      head: "Kartikey Raghav",
       post: "President, Software Division",
-      img: Tanvi,
+      img: pclub_sw,
       club_insta: "https://www.instagram.com/pclub_iiti/",
       club_lin: "https://www.linkedin.com/company/progclub-iiti/",
       website: "http://progclub.iiti.ac.in/",
     },
     {
       club_name: "Quantum Computing",
-      head: "Arham Aneeq",
+      head: "V Hemal",
       img: Quantum,
       post:"President",
       club_insta: "https://www.instagram.com/quantum_computing_iiti/",
@@ -187,7 +171,7 @@ export default function Hero() {
     },
     {
       club_name: "Robotics",
-      head: "Tejas Santosh Bhavekar",
+      head: "Ananya Shubhangi Sinha",
       post: "President",
       img: robo,
       club_insta: "https://instagram.com/roboticsclub_iitindore",
@@ -196,7 +180,7 @@ export default function Hero() {
     },
     {
       club_name: "Biocrats Club",
-      head: "Anjali Singh",
+      head: "Ayushi Rawat",
       post: "Club Head",
       img: Biocrats,
       // Add the correct image import if available

@@ -12,29 +12,29 @@ import insta_icon from "../../../../public/assests/clubHeads/social_logo/ig_blac
 import li_icon from "../../../../public/assests/clubHeads/social_logo/li_blackLogo.png";
 import site_icon from "../../../../public/assests/clubHeads/social_logo/site.webp";
 
-import aaina from "../../../../public/assests/cult_clubs_heads/Arnav_Aaina.jpg";
-import alpha from "../../../../public/assests/cult_clubs_heads/Kartheek sashank_KDC.jpg";
-import avana from "../../../../public/assests/cult_clubs_heads/Anurag_Avana.jpg";
-import cinephiles from "../../../../public/assests/cult_clubs_heads/Viswajith_Cinephiles.jpg";
-import debsoc from "../../../../public/assests/cult_clubs_heads/Chanakya_Debsoc .jpeg";
-import ebsb from "../../../../public/assests/cult_clubs_heads/RajeevKadali_EBSB.jpg";
-import game from "../../../../public/assests/cult_clubs_heads/game.jpg";
-import kalakriti from "../../../../public/assests/cult_clubs_heads/Hilori_Kalakriti.jpg";
-import music from "../../../../public/assests/cult_clubs_heads/Nandan_MusicClub.jpg";
-import mystic from "../../../../public/assests/cult_clubs_heads/Kavya_mystichues.jpg";
-import srijan from "../../../../public/assests/cult_clubs_heads/Anuj_Srijan.jpg";
-import vlr from "../../../../public/assests/cult_clubs_heads/Praneet_VLR.jpg";
-import literary from "../../../../public/assests/cult_clubs_heads/Ayush_Literary.jpg";
-import prakriti from "../../../../public/assests/cult_clubs_heads/Sai Abhilash Dash_Prakriti.jpg";
-import quiz from "../../../../public/assests/cult_clubs_heads/Sreechand_TheQuizClub.jpg";
-import bga from "../../../../public/assests/cult_clubs_heads/Saurabh Yadav_ BGA CLUB.jpg";
-// import test, { before } from "node:test";
+import aaina from "../../../../public/assests/cult_clubs_heads/mapansh.jpeg";
+import dance from "../../../../public/assests/cult_clubs_heads/payam.jpg";
+import avana from "../../../../public/assests/cult_clubs_heads/samarth.jpg";
+import cinephiles from "../../../../public/assests/cult_clubs_heads/harsh.jpg";
+import debsoc from "../../../../public/assests/cult_clubs_heads/sanskriti.jpg";
+import ebsb from "../../../../public/assests/cult_clubs_heads/yalavarthi.jpg";
+import game from "../../../../public/assests/cult_clubs_heads/rubal.jpg";
+import kalakriti from "../../../../public/assests/cult_clubs_heads/chunduru.png";
+import music from "../../../../public/assests/cult_clubs_heads/rohan.jpg";
+import mystic from "../../../../public/assests/cult_clubs_heads/yashmodi.jpeg";
+import srijan from "../../../../public/assests/cult_clubs_heads/ashish.jpg";
+import vlr from "../../../../public/assests/cult_clubs_heads/hemant.jpeg";
+import prakriti from "../../../../public/assests/cult_clubs_heads/vikas.png";
+import quiz from "../../../../public/assests/cult_clubs_heads/ayush.png";
+import bga from "../../../../public/assests/cult_clubs_heads/saurabh.jpeg";
+import nologo from "../../../../public/assests/sports/nologo.png"
+import literary from "../../../../public/assests/cult_clubs_heads/aradhya.jpg";
 
 export default function Hero() {
   const clubArr = [
     {
       club_name: "AAINA",
-      head: "Arnav Deshpande", // AAINA (Dramatics Club)
+      head: "Mapansh Phogat", // AAINA (Dramatics Club)
       post: "Head",
       img: aaina,
       club_insta: "https://www.instagram.com/dramaticsclubiiti/",
@@ -43,7 +43,7 @@ export default function Hero() {
     },
     {
       club_name: "Avana",
-      head: "Anurag Singh", // Avana Club
+      head: "Samarth", // Avana Club
       post: "Head",
       img: avana,
       club_insta: "https://www.instagram.com/avana_iiti/",
@@ -52,7 +52,7 @@ export default function Hero() {
     },
     {
       club_name: "Cinephiles",
-      head: "Viswajith Manthripragada", // Cinephiles (Film making Club)
+      head: "Harsh Pathak", // Cinephiles (Film making Club)
       post: "Head",
       img: cinephiles,
       club_insta: "https://www.instagram.com/cinephiles_iiti/",
@@ -61,16 +61,16 @@ export default function Hero() {
     },
     {
       club_name: "Kaizen Dance Crew",
-      head: "Bogi Kartheek Sashank", // Kaizen Dance Crew (Dance club)
+      head: "Sai venkat", // Kaizen Dance Crew (Dance club)
       post: "Head",
-      img: alpha,
+      img: dance,
       club_insta: "https://www.instagram.com/d_alphazcrew/",
       club_lin: "#",
       website: "",
     },
     {
       club_name: "Debsoc",
-      head: "Chanakya Cherukumalli", // DebSoc
+      head: "Sanskriti Jain", // DebSoc
       post: "Head",
       img: debsoc,
       club_insta: "https://www.instagram.com/debsociiti/",
@@ -79,7 +79,7 @@ export default function Hero() {
     },
     {
       club_name: "EBSB",
-      head: "Rajeev Kadali", // EBSB Club
+      head: "Yalavarthi Udayasri", // EBSB Club
       post: "Head",
       img: ebsb,
       club_insta: "https://www.instagram.com/ebsbclub_iiti/",
@@ -88,7 +88,7 @@ export default function Hero() {
     },
     {
       club_name: "Gaming Club",
-      head: "Aman Choudhary", // Gaming Club
+      head: "Rubal Dhoke", // Gaming Club
       post: "Head",
       img: game,
       club_insta: "https://www.instagram.com/gamingclubiiti/",
@@ -97,7 +97,7 @@ export default function Hero() {
     },
     {
       club_name: "Kalakriti",
-      head: "Hilori Jain", // Kalakriti Club
+      head: "Vedavarshith Chunduru", // Kalakriti Club
       post: "Head",
       img: kalakriti,
       club_insta: "https://www.instagram.com/kalakriti_iiti/",
@@ -106,7 +106,7 @@ export default function Hero() {
     },
     {
       club_name: "Music Club",
-      head: "Prakrut Moon", // Music Club (choose one, see note below)
+      head: "Rohan Jain", // Music Club (choose one, see note below)
       post: "Head",
       img: music,
       club_insta: "https://www.instagram.com/themusicclub.iiti/",
@@ -115,7 +115,7 @@ export default function Hero() {
     },
     {
       club_name: "Mystic Hues",
-      head: "Kavya Patel", // Mystic Hues
+      head: "Yash Modi", // Mystic Hues
       post: "Head",
       img: mystic,
       club_insta: "https://www.instagram.com/mystichues?igsh-N2RxeWU4dmcyb3L/3",
@@ -124,7 +124,7 @@ export default function Hero() {
     },
     {
       club_name: "Prakriti Club",
-      head: "Sai Abhilash Dash", // Prakriti Club
+      head: "Vikas", // Prakriti Club
       post: "Head",
       img: prakriti,
       club_insta: "https://www.instagram.com/prakriti.iiti/",
@@ -133,7 +133,7 @@ export default function Hero() {
     },
     {
       club_name: "Srijan Club",
-      head: "Anuj Pal", // Srijan Club
+      head: "Aashish Sharma", // Srijan Club
       post: "Head",
       img: srijan,
       club_insta: "https://www.instagram.com/srijan_iit_indore/",
@@ -141,7 +141,7 @@ export default function Hero() {
     },
     {
       club_name: "VLR",
-      head: "Praneet Masiya", // VLR Club
+      head: "Hemant Santosh Yadav", // VLR Club
       post: "Head",
       img: vlr,
       club_insta: "https://www.instagram.com/vlr_iiti/",
@@ -149,7 +149,7 @@ export default function Hero() {
     },
     {
       club_name: "Literary Club",
-      head: "Ayush Jindal", // The literary club
+      head: "Aaradhya Sharma", // The literary club
       post: "Head",
       img: literary,
       club_insta: "https://www.instagram.com/thelitclub.iiti/",
@@ -157,7 +157,7 @@ export default function Hero() {
     },
     {
       club_name: "Quiz Club",
-      head: "Rayavarapu Sreechand", 
+      head: "Aayush Sharma", 
       post: "Head",
       img: quiz,
       club_insta: "#",

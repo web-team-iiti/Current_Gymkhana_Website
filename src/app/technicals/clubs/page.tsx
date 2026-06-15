@@ -20,7 +20,6 @@ import robo from "../../../../public/assests/clubs/logo/ROBOTICS CLUB_.jpg";
 import snt from "../../../../public/assests/clubs/logo/Science and technology council 23-24 20230515_112204 (1) (1).jpg";
 import astro from "../../../../public/assests/clubs/logo/The_Astronomy_Club.jpg";
 import aeromodelling from "../../../../public/assests/clubs/logo/Aeromodelling .jpg";
-import webgym from "../../../../public/assests/clubs/logo/Web_Team_Logo.png";
 import biocrats from "../../../../public/assests/clubs/logo/Logo Biocrats.jpg"; 
 import infinitrix from "../../../../public/assests/clubs/logo/Infinitrix.jpg"; 
 import HeadsPage from "../clubHeads/page";
@@ -49,7 +48,7 @@ export default function Hero() {
     },
     {
       "more":"https://www.instagram.com/caeclub_iiti/",
-      "title": "CAE",
+      "title": "Rocketry Club",
       "imageSrc": cae,
     },
     {
@@ -59,12 +58,12 @@ export default function Hero() {
     },
     {
       "more":"https://www.instagram.com/concreate_iiti/",
-      "title": "Concreate",
+      "title": "Concreate Club",
       "imageSrc": concreate,
     },
     {
       "more":"https://cynaptics.vercel.app/",
-      "title": "Cynaptics",
+      "title": "Cynaptics Club",
       "imageSrc": cyn,
     },
     {
@@ -78,11 +77,6 @@ export default function Hero() {
       "imageSrc": gdsc,
     },
     {
-      "more":"https://www.instagram.com/gymkhana_iiti/",
-      "title": "Gymkhana Web Team",
-      "imageSrc": webgym,
-    },
-    {
       "more":"https://www.instagram.com/math_club_iiti/",
       "title": "Infinitrix - The Math Club",
       "imageSrc": infinitrix,
@@ -94,7 +88,7 @@ export default function Hero() {
     },
     {
       "more":"http://metacryst.iiti.ac.in/",
-      "title": "Metacryst",
+      "title": "Metacryst Club",
       "imageSrc": meta,
     },
     {
@@ -113,10 +107,6 @@ export default function Hero() {
       "title": "Robotics Club",
       "imageSrc": robo,
     },
-    
-   
-    
-    
   ];
   return (
     <>

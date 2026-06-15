@@ -15,8 +15,10 @@ import vb from "../../../../public/assests/sports/vb.png";
 import tt from "../../../../public/assests/sports/tt.png";
 import chess from "../../../../public/assests/sports/chess.jpg";
 import football from "../../../../public/assests/sports/football.jpg";
+import cycling from "../../../../public/assests/sports/cycling.jpeg";
 import badminton from "../../../../public/assests/sports/Badminton_club_logo.png";
-
+import nologo from "../../../../public/assests/sports/nologo.png"
+import hockey from "../../../../public/assests/sports/hockey.jpeg"
 import HeadsPage from "../clubHeads/page";
 
 import { before } from "node:test";
@@ -73,7 +75,21 @@ export default function Hero() {
       "title": "Volleyball Club",
       "imageSrc": vb,
     },
-    
+    {
+      "website":"https://www.instagram.com/volleyball.iiti/",
+      "title": "Weightlifting Club",
+      "imageSrc": nologo,
+    },
+    {
+      "website":"https://www.instagram.com/volleyball.iiti/",
+      "title": "Hockey Club",
+      "imageSrc": hockey,
+    },
+    {
+      "website":"https://www.instagram.com/volleyball.iiti/",
+      "title": "Cycling Club",
+      "imageSrc": cycling,
+    }
   ];
   return (
     <>
