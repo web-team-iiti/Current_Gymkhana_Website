@@ -214,14 +214,13 @@ export default function Hero() {
                   <motion.div
                     whileHover={{ scale: 1.1, filter: "brightness(1.2)" }}
                     transition={{ duration: 0.5 }}
-                    className="img-cont lg:w-52 lg:h-40 md:w-40 md:h-40 sm:w-30 sm:h-40 md:flex-auto flex items-center justify-center lg:mb-12 lg:mt-4 md:m-2 xs:w-40 xs:h-40 cursor-pointer hover:shadow-xl xxs:h-40"
+                    className="img-cont aspect-square lg:w-44 lg:h-44 md:w-36 md:h-36 sm:w-32 sm:h-32 xs:w-36 xs:h-36 xxs:w-28 xxs:h-28 flex items-center justify-center lg:mb-12 lg:mt-4 md:m-2 cursor-pointer hover:shadow-xl overflow-hidden"
                    
 
                     whileTap={{ scale: 0.9, filter: "brightness(0.85)" }}
                   >
                     <Image
-                      // className="lg:w-[20vw] sm:w-[18vw] xxs:[10vw] sm:mt-3 lg:mt-2 md:border-b-5 sm:pb-5 md:pb-0 border-sky-600 "
-                      className=" lg:w-[100%] lg:h-[100%] sm:w-[80%] sm:h-[80%] md:w-[90%] xxs:w-[70%] xxs:h-[70%] md:mt-5 md:h-[90%] lg:mt-4 sm:mt-3 xxs:mt-10 border-sky-600"
+                      className="w-full h-full object-contain"
                       // newwwww
                       src={item.imageSrc.src}
                       alt={item.title}

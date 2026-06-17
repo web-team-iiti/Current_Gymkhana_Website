@@ -10,6 +10,7 @@ import testImg from "../../../../public/assests/clubHeads/img.png";
 import insta_icon from "../../../../public/assests/clubHeads/social_logo/ig_black.webp";
 import li_icon from "../../../../public/assests/clubHeads/social_logo/li_blackLogo.png";
 import web from "../../../../public/assests/clubHeads/photos/Abhishek_GymkhanaWebTeam.jpeg";
+import nologo from "../../../../public/assests/sports/nologo.png"
 
 export default function Hero() {
   const clubArr = [
@@ -20,7 +21,15 @@ export default function Hero() {
       club_lin: "#",
       club_insta: "#",
       img: web,
-    }
+    },
+    {
+      club_name: "Team Vyoman",
+      head: "No Head Assigned",
+      post: "Head",
+      club_lin: "#",
+      club_insta: "#",
+      img: nologo,
+    },
   ];
   return (
     <>

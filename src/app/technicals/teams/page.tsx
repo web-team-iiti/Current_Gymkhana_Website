@@ -7,6 +7,7 @@ import heroImage from "../../../../public/technicalclubs.png";
 // import clubArr from "./clubData";
 import Header from "./header";
 import webgym from "../../../../public/assests/clubs/logo/Web_Team_Logo.png";
+import vyoman from "../../../../public/assests/clubs/logo/Vyoman_Team_Logo.jpeg";
 import HeadsPage from "../teamHeads/page";
 
 
@@ -16,6 +17,11 @@ export default function Hero() {
       "more":"https://www.instagram.com/gymkhana_iiti/",
       "title": "Gymkhana Web Team",
       "imageSrc": webgym,
+    },
+    {
+      "more":"#",
+      "title": "Team Vyoman",
+      "imageSrc": vyoman,
     },
   ];
   return (

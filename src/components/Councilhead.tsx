@@ -24,7 +24,7 @@ const secretaries = [
   {
     name: "Kavyansh Raj Singh",
     role: "GENERAL SECRETARY \nACADEMIC AFFAIRS UG",
-    image: "/GS Acads Ug.jpg",
+    image: "/GS Acads Ug.png",
     alt: "GS Academics UG",
     linkedin:
       "https://www.linkedin.com/in/kavyanshsingh/",
