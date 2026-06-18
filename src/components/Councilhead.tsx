@@ -14,6 +14,15 @@ const secretaries = [
     email: "president.sg@iiti.ac.in",
   },
   {
+    name: "Dhruv Bhardwaj",
+    role: "GENERAL SECRETARY \nSCIENCE AND TECHNOLOGY",
+    image: "/GS SnT.jpeg",
+    alt: "GS Science and Technology",
+    linkedin:
+      "https://www.linkedin.com/in/dhruv-bhardwaj-b82b0631b/",
+    email: "gs.scitech@iiti.ac.in",
+  },
+  {
     name: "Sohil Dangi",
     role: "GENERAL SECRETARY \nCULTURALS",
     image: "/GS Cult.jpg",
@@ -21,15 +30,6 @@ const secretaries = [
     linkedin:
       "https://www.linkedin.com/in/sohil-dangi/",
     email: "gs.culturals@iiti.ac.in",
-  },
-  {
-    name: "Kavyansh Raj Singh",
-    role: "GENERAL SECRETARY \nACADEMIC AFFAIRS UG",
-    image: "/GS Acads Ug.png",
-    alt: "GS Academics UG",
-    linkedin:
-      "https://www.linkedin.com/in/kavyanshsingh/",
-    email: "gs.acad.ug@iiti.ac.in",
   },
   {
     name: "Badal singh",
@@ -41,31 +41,22 @@ const secretaries = [
     email: "gs.hostel@iiti.ac.in",
   },
   {
-    name: "Yogendra Bihare",
-    role: "GENERAL SECRETARY \nMESS, CAFETARIA AND ALLIED SERVICES",
-    image: "/GS MAC.jpg",
-    alt: "GS MAC",
+    name: "Kavyansh Raj Singh",
+    role: "GENERAL SECRETARY \nACADEMIC AFFAIRS UG",
+    image: "/GS Acads Ug.png",
+    alt: "GS Academics UG",
     linkedin:
-      "https://www.linkedin.com/in/yogendra-bihare-b91b25251/",
-    email: "gs.dining@iiti.ac.in",
+      "https://www.linkedin.com/in/kavyanshsingh/",
+    email: "gs.acad.ug@iiti.ac.in",
   },
   {
-    name: "Dhruv Bhardwaj",
-    role: "GENERAL SECRETARY \nSCIENCE AND TECHNOLOGY",
-    image: "/GS SnT.jpeg",
-    alt: "GS Science and Technology",
+    name: "Lakshya Shukla",
+    role: "GENERAL SECRETARY \nSPORTS AFFAIRS",
+    image: "/GS Sports.jpg",
+    alt: "GS Sports Affairs",
     linkedin:
-      "https://www.linkedin.com/in/dhruv-bhardwaj-b82b0631b/",
-    email: "gs.scitech@iiti.ac.in",
-  },
-  {
-    name: "Isha Sharma",
-    role: "GENERAL SECRETARY \nACADEMIC AFFAIRS PG",
-    image: "/GS Acad Pg.jpeg",
-    alt: "GS Academics PG",
-    linkedin:
-      "https://www.linkedin.com/in/isha-sharma-a92b7a1a2/",
-    email: "gs.acad.pg@iiti.ac.in",
+      "https://www.linkedin.com/in/lakshya-shukla-853542345/",
+    email: "gs.sports@iiti.ac.in",
   },
   {
     name: "Vishal Shakya",
@@ -77,13 +68,22 @@ const secretaries = [
     email: "gs.coa@iiti.ac.in",
   },
   {
-    name: "Lakshya Shukla",
-    role: "GENERAL SECRETARY \nSPORTS AFFAIRS",
-    image: "/GS Sports.jpg",
-    alt: "GS Sports Affairs",
+    name: "Yogendra Bihare",
+    role: "GENERAL SECRETARY \nMESS, CAFETARIA AND ALLIED SERVICES",
+    image: "/GS MAC.jpg",
+    alt: "GS MAC",
     linkedin:
-      "https://www.linkedin.com/in/lakshya-shukla-853542345/",
-    email: "gs.sports@iiti.ac.in",
+      "https://www.linkedin.com/in/yogendra-bihare-b91b25251/",
+    email: "gs.dining@iiti.ac.in",
+  },
+  {
+    name: "Isha Sharma",
+    role: "GENERAL SECRETARY \nACADEMIC AFFAIRS PG",
+    image: "/GS Acad Pg.jpeg",
+    alt: "GS Academics PG",
+    linkedin:
+      "https://www.linkedin.com/in/isha-sharma-a92b7a1a2/",
+    email: "gs.acad.pg@iiti.ac.in",
   },
 ];
 

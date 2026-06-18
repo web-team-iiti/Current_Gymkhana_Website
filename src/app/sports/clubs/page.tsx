@@ -75,11 +75,11 @@ export default function Hero() {
       "title": "Volleyball Club",
       "imageSrc": vb,
     },
-    {
-      "website":"https://www.instagram.com/volleyball.iiti/",
-      "title": "Weightlifting Club",
-      "imageSrc": nologo,
-    },
+    // {
+    //   "website":"https://www.instagram.com/volleyball.iiti/",
+    //   "title": "Weightlifting Club",
+    //   "imageSrc": nologo,
+    // },
     {
       "website":"https://www.instagram.com/volleyball.iiti/",
       "title": "Hockey Club",

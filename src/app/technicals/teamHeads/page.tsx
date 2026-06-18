@@ -22,14 +22,14 @@ export default function Hero() {
       club_insta: "https://www.instagram.com/iabhi_shekkk/",
       img: web,
     },
-    {
-      club_name: "Team Vyoman",
-      head: "No Head Assigned",
-      post: "Head",
-      club_lin: "#",
-      club_insta: "#",
-      img: nologo,
-    },
+    // {
+    //   club_name: "Team Vyoman",
+    //   head: "No Head Assigned",
+    //   post: "Head",
+    //   club_lin: "#",
+    //   club_insta: "#",
+    //   img: nologo,
+    // },
   ];
   return (
     <>
