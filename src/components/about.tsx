@@ -1,12 +1,28 @@
-import Image from "next/image"
+import Image from "next/image";
+import { motion } from "framer-motion";
+
 export default function about(){
     return(
-        <section className="bg-[url(/bg2.jpg)] bg-cover bg-center text-white px-12 md:px-48 py-8 md:py-8">
-            <h1 className="text-6xl font-sans font-bold mb-4 text-center max-sm:text-4xl">About Us</h1>
-          <div className="flex flex-row flex-wrap-reverse">
-            <div className="min-w-[50%]  flex flex-col items-center mx-auto pb-4">
+        <section className="bg-[url(/bg2.jpg)] bg-cover bg-center text-white px-12 md:px-48 py-8 md:py-8 overflow-hidden">
+            <motion.h1 
+              initial={{ opacity: 0, y: -30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false, margin: "-50px" }}
+              transition={{ duration: 0.6 }}
+              className="text-6xl font-sans font-bold mb-4 text-center max-sm:text-4xl"
+            >
+              About Us
+            </motion.h1>
+          <div className="flex flex-row flex-wrap-reverse mt-8">
+            <motion.div 
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: false, margin: "-50px" }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="min-w-[50%] flex flex-col items-center mx-auto pb-4"
+            >
             
-            <p className="max-w-3xl text-2xl py-4  pb-8 text-justify max-sm:text-xl">
+            <p className="max-w-3xl text-2xl py-4 pb-8 text-justify max-sm:text-xl">
               A major attraction of IITI is its eminent faculty members and
               flexible education system. The faculty at IITI is one of the best
               among Indian professional institutes. The faculty members are
@@ -24,18 +40,24 @@ export default function about(){
               dedicated to the interests of the students.
             </p>
             <div>
-            <a href="https://www.iiti.ac.in/" target="_blank" className="p-3 border-2 border-white text-2xl rounded-lg hover:text-black hover:bg-white">Learn More</a>
+            <a href="https://www.iiti.ac.in/" target="_blank" className="p-3 border-2 border-white text-2xl rounded-lg hover:text-black hover:bg-white transition-colors">Learn More</a>
             </div>
-            </div>
-            <div className=" mx-auto min-w-[15rem] max-w-[30rem] px-4">
+            </motion.div>
+            <motion.div 
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: false, margin: "-50px" }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              className="mx-auto min-w-[15rem] max-w-[30rem] px-4"
+            >
             <Image
-        className="pt-10  "
+        className="pt-10"
         src="/main_logo.png"
         width={550}
         height={550}
         alt="Gymkhana main Logo"
       />
-            </div>
+            </motion.div>
           </div>
         </section>
     )

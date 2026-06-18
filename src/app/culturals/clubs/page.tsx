@@ -116,7 +116,7 @@ export default function Hero() {
           scrollbarWidth: "none",
           scrollBehavior: "smooth",
         }}
-        className="overflow-x-hidden mt-[-10vh] relative h-[100vh] "
+        className="overflow-x-hidden relative h-screen w-full "
       >
         <Image
           src={heroImage}

@@ -108,25 +108,30 @@ const questions = [
 
 function Page() {
   return (
-    <main className="px-6 sm:px-24 ">
-      <p className="text-4xl font-bold">FAQs:</p>
-      <section>
-        {questions.map((item, ind) => {
-          return (
-            <Accordion type="single" collapsible key={ind}>
-              <AccordionItem value="item-1">
-                <AccordionTrigger className="text-xl font-semibold">
-                  {item.question}
-                </AccordionTrigger>
-                <AccordionContent className="text-lg">
-                  {item.answer}
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
-          );
-        })}
-      </section>
-    </main>
+    <div className="relative w-full min-h-screen bg-gradient-to-br from-[#18181b] via-[#09090b] to-[#000000] pt-32 pb-20 px-4">
+      <div className="absolute inset-0 z-0 bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-[size:32px_32px]"></div>
+      <main className="relative z-10 max-w-5xl mx-auto bg-black/60 backdrop-blur-md rounded-3xl p-8 sm:p-12 shadow-2xl text-white">
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-center mb-12 text-amber-400 tracking-wide">
+          Frequently Asked Questions
+        </h1>
+        <section className="space-y-4 sm:space-y-6">
+          {questions.map((item, ind) => {
+            return (
+              <Accordion type="single" collapsible key={ind} className="bg-white/5 border border-white/10 rounded-2xl px-6 py-1 sm:py-2 hover:bg-white/10 transition-all duration-300">
+                <AccordionItem value="item-1" className="border-none">
+                  <AccordionTrigger className="text-lg sm:text-xl font-semibold hover:no-underline text-left text-white hover:text-amber-300 transition-colors">
+                    {item.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-base sm:text-lg text-gray-300 leading-relaxed pb-4">
+                    {item.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+            );
+          })}
+        </section>
+      </main>
+    </div>
   );
 }
 

@@ -18,8 +18,8 @@ export default function Hero() {
       club_name: "Gymkhana Web Team",
       head: "Abhishek Kumar Verma",
       post: "Head",
-      club_lin: "#",
-      club_insta: "#",
+      club_lin: "https://in.linkedin.com/in/abhishek-verma-900178329",
+      club_insta: "https://www.instagram.com/iabhi_shekkk/",
       img: web,
     },
     {

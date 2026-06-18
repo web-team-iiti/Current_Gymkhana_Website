@@ -70,7 +70,7 @@ function Footer() {
       
       <div className="xl:grid grid-cols-3 my-4 w-full items-center">
         <p className="xl:text-left text-center col-span-2 pt-1">
-          © 2024 IITI. All rights reserved.
+          © 2026 IITI. All rights reserved.
         </p>
 
         <span className="justify-self-end flex flex-row gap-6 w-full justify-center xl:justify-end">

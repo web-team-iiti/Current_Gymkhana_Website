@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 const ModalComponent = dynamic(() => import("../../components/modal"),{
   ssr :false,
@@ -287,41 +288,50 @@ export default function ImageGallery() {
   };
 
   return (
-    <div className="p-2 bg-[url('../../public/assests/mainbg.jpg')] overflow-hidden">
-      <div className="h-[8vh] text-center pt-2.5 text-white  font-black text-3xl max-[350px]:text-xl">
-        <span className="bg-clip-text text-transparent text-yellow-500  text-5xl ">
-          EVENTS
-        </span>
-      </div>
-      <div className="mainbody w-full">
-        <div className="flex flex-wrap justify-center w-full mx-auto overflow-y-auto mt-2 px-2 overflow-hidden">
+    <div className="relative w-full min-h-screen bg-gradient-to-b from-[#0a0a0a] via-black to-black pt-32 pb-20 px-4 sm:px-12">
+      <div className="absolute inset-0 z-0 bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-[size:32px_32px]"></div>
+      
+      <div className="relative z-10 max-w-7xl mx-auto">
+        <h1 className="text-5xl md:text-6xl font-extrabold text-center mb-16 text-amber-400 tracking-wide">
+          Events Gallery
+        </h1>
+        
+        <div className="flex flex-wrap justify-center gap-y-12">
           {events.map((event, index) => (
-            <div
+            <motion.div
               key={index}
-              className="w-1/3 p-3 pb-3 max-md:w-1/2 max-[469px]:w-[90%] mx-auto"
-              style={{ maxWidth: "600px" }}
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: false, margin: "-50px" }}
+              transition={{ duration: 0.5, delay: (index % 3) * 0.1 }}
+              className="w-full sm:w-1/2 lg:w-1/3 px-4 flex flex-col items-center group cursor-pointer"
+              onClick={() => handleEventClick(index)}
             >
-              <Image
-                src={event.src}
-                alt={event.alt}
-                width={820}
-                height={800}
-                className="border-4 border-solid border-white hover:border-yellow-500 cursor-pointer"
-                onClick={() => handleEventClick(index)}
-              />
-              <p className="text-center p-1 text-white text-lg sm:text-xl md:text-2xl lg:text-4xl font-semibold">{event.name}</p>
-            </div>
+              <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl border-2 border-white/10 group-hover:border-amber-400 transition-colors duration-300">
+                <Image
+                  src={event.src}
+                  alt={event.alt}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-300"></div>
+              </div>
+              <p className="mt-6 text-center text-white text-2xl font-bold group-hover:text-amber-400 transition-colors duration-300">
+                {event.name}
+              </p>
+            </motion.div>
           ))}
-          {selectedEvent && (
-            <ModalComponent
-              event={selectedEvent}
-              imageIndex={selectedImageIndex}
-              onClose={handleCloseModal}
-              onNextImage={handleNextImage}
-              onPrevImage={handlePrevImage}
-            />
-          )}
         </div>
+
+        {selectedEvent && (
+          <ModalComponent
+            event={selectedEvent}
+            imageIndex={selectedImageIndex}
+            onClose={handleCloseModal}
+            onNextImage={handleNextImage}
+            onPrevImage={handlePrevImage}
+          />
+        )}
       </div>
     </div>
   );

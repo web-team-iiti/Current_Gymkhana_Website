@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const secretaries = [
   {
@@ -147,6 +148,7 @@ function SecretaryCard({
   alt,
   linkedin,
   email,
+  index,
 }: {
   name: string;
   role: string;
@@ -154,9 +156,16 @@ function SecretaryCard({
   alt: string;
   linkedin: string;
   email: string;
+  index: number;
 }) {
   return (
-    <div className="flex bg-[#abdbe3] flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12 border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%]">
+    <motion.div 
+      initial={{ opacity: 0, scale: 0.9, y: 30 }}
+      whileInView={{ opacity: 1, scale: 1, y: 0 }}
+      viewport={{ once: false, margin: "-50px" }}
+      transition={{ duration: 0.5, delay: (index % 3) * 0.1 }}
+      className="flex bg-[#abdbe3] flex-col justify-center max-w-xs p-6 my-2 shadow-md rounded-xl sm:px-12 border-4 border-blue-800 hover:border-white justify-self-center max-[469px]:w-[80%] hover:scale-[1.02] transition-transform"
+    >
       <Image
         src={image}
         alt={alt}
@@ -178,20 +187,26 @@ function SecretaryCard({
 
         <SocialIcons linkedin={linkedin} email={email} />
       </div>
-    </div>
+    </motion.div>
   );
 }
 
 export default function CounciHeads() {
   return (
-    <section className="py-12 bg-[url(/bg4.jpg)] bg-cover">
-      <h1 className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-blue-200">
+    <section className="py-12 bg-[url(/bg4.jpg)] bg-cover overflow-hidden">
+      <motion.h1 
+        initial={{ opacity: 0, y: -30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: false, margin: "-50px" }}
+        transition={{ duration: 0.6 }}
+        className="text-center text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-blue-200"
+      >
         Our Secretaries
-      </h1>
+      </motion.h1>
 
       <div className="grid grid-cols-3 gap-2 py-6 max-[1128px]:grid-cols-3 max-[845px]:grid-cols-2 max-[469px]:grid-cols-1 justify-center w-[80%] mx-auto">
         {secretaries.map((secretary, index) => (
-          <SecretaryCard key={index} {...secretary} />
+          <SecretaryCard key={index} index={index} {...secretary} />
         ))}
       </div>
     </section>

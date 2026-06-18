@@ -14,12 +14,12 @@ import site_icon from "../../../../public/assests/clubHeads/social_logo/site.web
 
 import aaina from "../../../../public/assests/cult_clubs_heads/mapansh.jpeg";
 import dance from "../../../../public/assests/cult_clubs_heads/payam.jpg";
-import avana from "../../../../public/assests/cult_clubs_heads/samarth.jpg";
+import avana from "../../../../public/assests/cult_clubs_heads/mohnish.jpeg";
 import cinephiles from "../../../../public/assests/cult_clubs_heads/harsh.jpg";
 import debsoc from "../../../../public/assests/cult_clubs_heads/sanskriti.jpg";
 import ebsb from "../../../../public/assests/cult_clubs_heads/yalavarthi.jpg";
 import game from "../../../../public/assests/cult_clubs_heads/rubal.jpg";
-import kalakriti from "../../../../public/assests/cult_clubs_heads/chunduru.png";
+import kalakriti from "../../../../public/assests/cult_clubs_heads/shruti.jpg";
 import music from "../../../../public/assests/cult_clubs_heads/rohan.jpg";
 import mystic from "../../../../public/assests/cult_clubs_heads/yashmodi.jpeg";
 import srijan from "../../../../public/assests/cult_clubs_heads/ashish.jpg";
@@ -43,11 +43,11 @@ export default function Hero() {
     },
     {
       club_name: "Avana",
-      head: "Samarth", // Avana Club
+      head: "Mohnish Raj", // Avana Club
       post: "Head",
       img: avana,
       club_insta: "https://www.instagram.com/avana_iiti/",
-      club_lin: "https://www.linkedin.com/company/avana-iit-indore/",
+      club_lin: "https://in.linkedin.com/in/mohnish-raj-77b9aa230",
       website: "",
     },
     {
@@ -56,7 +56,7 @@ export default function Hero() {
       post: "Head",
       img: cinephiles,
       club_insta: "https://www.instagram.com/cinephiles_iiti/",
-      club_lin: "#",
+      club_lin: "https://www.linkedin.com/in/harsh-pathak-12b1a7318?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       website: "",
     },
     {
@@ -65,7 +65,7 @@ export default function Hero() {
       post: "Head",
       img: dance,
       club_insta: "https://www.instagram.com/d_alphazcrew/",
-      club_lin: "#",
+      club_lin: "https://www.linkedin.com/in/sai-venkata-krishna-payam-676966335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app#",
       website: "",
     },
     {
@@ -74,7 +74,7 @@ export default function Hero() {
       post: "Head",
       img: debsoc,
       club_insta: "https://www.instagram.com/debsociiti/",
-      club_lin: "https://www.linkedin.com/company/the-debating-society-iit-indore/",
+      club_lin: "https://www.linkedin.com/in/sanskriti-jain-000588319/",
       website: "",
     },
     {
@@ -92,16 +92,16 @@ export default function Hero() {
       post: "Head",
       img: game,
       club_insta: "https://www.instagram.com/gamingclubiiti/",
-      club_lin: "https://www.linkedin.com/company/esports-and-gaming-club-iit-indore",
+      club_lin: "https://www.linkedin.com/in/rubal-dhoke-978a64312/",
       website: "",
     },
     {
       club_name: "Kalakriti",
-      head: "Vedavarshith Chunduru", // Kalakriti Club
+      head: "Shruti Turare", // Kalakriti Club
       post: "Head",
       img: kalakriti,
       club_insta: "https://www.instagram.com/kalakriti_iiti/",
-      club_lin: "https://www.linkedin.com/company/kalakriti-iit-indore/",
+      club_lin: "https://www.linkedin.com/in/shruti-turare-a5184a286/",
       website: "",
     },
     {
@@ -110,7 +110,7 @@ export default function Hero() {
       post: "Head",
       img: music,
       club_insta: "https://www.instagram.com/themusicclub.iiti/",
-      club_lin: "https://www.linkedin.com/company/music-club-iit-indore/",
+      club_lin: "https://www.linkedin.com/in/rohan-jain-61804b320?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       website: "",
     },
     {
@@ -119,7 +119,7 @@ export default function Hero() {
       post: "Head",
       img: mystic,
       club_insta: "https://www.instagram.com/mystichues?igsh-N2RxeWU4dmcyb3L/3",
-      club_lin: "https://www.linkedin.com/company/mystic-hues/",
+      club_lin: "https://www.linkedin.com/in/yash-modi-6b8644332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       website: "",
     },
     {
@@ -128,7 +128,7 @@ export default function Hero() {
       post: "Head",
       img: prakriti,
       club_insta: "https://www.instagram.com/prakriti.iiti/",
-      club_lin: "https://www.linkedin.com/company/prakriti-wildlife-club-iiti/",
+      club_lin: "https://www.linkedin.com/in/vikas-b76876325?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       website: "",
     },
     {
@@ -137,7 +137,7 @@ export default function Hero() {
       post: "Head",
       img: srijan,
       club_insta: "https://www.instagram.com/srijan_iit_indore/",
-      club_lin: "https://www.linkedin.com/company/srijan-hindi-sahitya-samiti/",
+      club_lin: "https://www.linkedin.com/in/aashish-sharma-2a0b56379",
     },
     {
       club_name: "VLR",
@@ -145,7 +145,7 @@ export default function Hero() {
       post: "Head",
       img: vlr,
       club_insta: "https://www.instagram.com/vlr_iiti/",
-      club_lin: "https://www.linkedin.com/company/animators-iiti/",
+      club_lin: "https://www.linkedin.com/in/hemant-yadav-a86497327/",
     },
     {
       club_name: "Literary Club",
@@ -153,29 +153,170 @@ export default function Hero() {
       post: "Head",
       img: literary,
       club_insta: "https://www.instagram.com/thelitclub.iiti/",
-      club_lin: "#",
+      club_lin: "https://www.linkedin.com/in/aars10?utm_source=share_via&utm_content=profile&utm_medium=member_android#",
     },
     {
       club_name: "Quiz Club",
-      head: "Aayush Sharma", 
+      head: "Aayush Sharma",
       post: "Head",
       img: quiz,
       club_insta: "#",
-      club_lin: "#",
+      club_lin: "https://in.linkedin.com/in/aayush-sharma-88b1b3321",
     },
     {
       club_name: "BGA Club ",
-      head: "Saurabh Yadav", 
+      head: "Saurabh Yadav",
       post: "Head",
       img: bga,
       club_insta: "#",
       club_lin: "#",
     },
   ];
+  // const clubArr = [
+  //   {
+  //     club_name: "AAINA",
+  //     head: "Mapansh Phogat", // AAINA (Dramatics Club)
+  //     post: "Head",
+  //     img: aaina,
+  //     club_insta: "https://www.instagram.com/dramaticsclubiiti/",
+  //     club_lin: "https://www.linkedin.com/in/aaina-iit-indore-832082273/",
+  //     website: "",
+  //   },
+  //   {
+  //     club_name: "Avana",
+  //     head: "Samarth", // Avana Club
+  //     post: "Head",
+  //     img: avana,
+  //     club_insta: "https://www.instagram.com/avana_iiti/",
+  //     club_lin: "https://www.linkedin.com/company/avana-iit-indore/",
+  //     website: "",
+  //   },
+  //   {
+  //     club_name: "Cinephiles",
+  //     head: "Harsh Pathak", // Cinephiles (Film making Club)
+  //     post: "Head",
+  //     img: cinephiles,
+  //     club_insta: "https://www.instagram.com/cinephiles_iiti/",
+  //     club_lin: "#",
+  //     website: "",
+  //   },
+  //   {
+  //     club_name: "Kaizen Dance Crew",
+  //     head: "Sai venkat", // Kaizen Dance Crew (Dance club)
+  //     post: "Head",
+  //     img: dance,
+  //     club_insta: "https://www.instagram.com/d_alphazcrew/",
+  //     club_lin: "#",
+  //     website: "",
+  //   },
+  //   {
+  //     club_name: "Debsoc",
+  //     head: "Sanskriti Jain", // DebSoc
+  //     post: "Head",
+  //     img: debsoc,
+  //     club_insta: "https://www.instagram.com/debsociiti/",
+  //     club_lin: "https://www.linkedin.com/company/the-debating-society-iit-indore/",
+  //     website: "",
+  //   },
+  //   {
+  //     club_name: "EBSB",
+  //     head: "Yalavarthi Udayasri", // EBSB Club
+  //     post: "Head",
+  //     img: ebsb,
+  //     club_insta: "https://www.instagram.com/ebsbclub_iiti/",
+  //     club_lin: "https://www.linkedin.com/company/ek-bharat-shreshtha-bharat-iit-indore/",
+  //     website: "",
+  //   },
+  //   {
+  //     club_name: "Gaming Club",
+  //     head: "Rubal Dhoke", // Gaming Club
+  //     post: "Head",
+  //     img: game,
+  //     club_insta: "https://www.instagram.com/gamingclubiiti/",
+  //     club_lin: "https://www.linkedin.com/company/esports-and-gaming-club-iit-indore",
+  //     website: "",
+  //   },
+  //   {
+  //     club_name: "Kalakriti",
+  //     head: "Vedavarshith Chunduru", // Kalakriti Club
+  //     post: "Head",
+  //     img: kalakriti,
+  //     club_insta: "https://www.instagram.com/kalakriti_iiti/",
+  //     club_lin: "https://www.linkedin.com/company/kalakriti-iit-indore/",
+  //     website: "",
+  //   },
+  //   {
+  //     club_name: "Music Club",
+  //     head: "Rohan Jain", // Music Club (choose one, see note below)
+  //     post: "Head",
+  //     img: music,
+  //     club_insta: "https://www.instagram.com/themusicclub.iiti/",
+  //     club_lin: "https://www.linkedin.com/company/music-club-iit-indore/",
+  //     website: "",
+  //   },
+  //   {
+  //     club_name: "Mystic Hues",
+  //     head: "Yash Modi", // Mystic Hues
+  //     post: "Head",
+  //     img: mystic,
+  //     club_insta: "https://www.instagram.com/mystichues?igsh-N2RxeWU4dmcyb3L/3",
+  //     club_lin: "https://www.linkedin.com/company/mystic-hues/",
+  //     website: "",
+  //   },
+  //   {
+  //     club_name: "Prakriti Club",
+  //     head: "Vikas", // Prakriti Club
+  //     post: "Head",
+  //     img: prakriti,
+  //     club_insta: "https://www.instagram.com/prakriti.iiti/",
+  //     club_lin: "https://www.linkedin.com/company/prakriti-wildlife-club-iiti/",
+  //     website: "",
+  //   },
+  //   {
+  //     club_name: "Srijan Club",
+  //     head: "Aashish Sharma", // Srijan Club
+  //     post: "Head",
+  //     img: srijan,
+  //     club_insta: "https://www.instagram.com/srijan_iit_indore/",
+  //     club_lin: "https://www.linkedin.com/company/srijan-hindi-sahitya-samiti/",
+  //   },
+  //   {
+  //     club_name: "VLR",
+  //     head: "Hemant Santosh Yadav", // VLR Club
+  //     post: "Head",
+  //     img: vlr,
+  //     club_insta: "https://www.instagram.com/vlr_iiti/",
+  //     club_lin: "https://www.linkedin.com/company/animators-iiti/",
+  //   },
+  //   {
+  //     club_name: "Literary Club",
+  //     head: "Aaradhya Sharma", // The literary club
+  //     post: "Head",
+  //     img: literary,
+  //     club_insta: "https://www.instagram.com/thelitclub.iiti/",
+  //     club_lin: "#",
+  //   },
+  //   {
+  //     club_name: "Quiz Club",
+  //     head: "Aayush Sharma", 
+  //     post: "Head",
+  //     img: quiz,
+  //     club_insta: "#",
+  //     club_lin: "#",
+  //   },
+  //   {
+  //     club_name: "BGA Club ",
+  //     head: "Saurabh Yadav", 
+  //     post: "Head",
+  //     img: bga,
+  //     club_insta: "#",
+  //     club_lin: "#",
+  //   },
+  // ];
   return (
     <>
-    <div className="sm:hidden block h-[50vw] bg-gradient-to-r from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%">
-</div>
+      <div className="sm:hidden block h-[50vw] bg-gradient-to-r from-pink-100 from-10% via-blue-100 via-30% to-purple-100 to-90%">
+      </div>
       <div
         id="hero-bg"
         style={{
@@ -185,7 +326,7 @@ export default function Hero() {
         }}
         className="overflow-x-hidden relative h-[0vh] "
       >
-        
+
         <motion.div
           className="absolute inset-0 flex items-center justify-center"
           initial={{ y: "-100vh", opacity: 0, scale: 1.5 }}
@@ -303,7 +444,7 @@ export default function Hero() {
                       <h3 className="my-0.5 lg:text-md text-sm md:text-md lg:font-small text-center text-gray-800 underline underline-offset-0.5">
                         {item.post}
                       </h3>
-                      <h2 className={`my-0.5 lg:text-md md:text-md lg:font-small text-center ${item.club_name.length>18?'sm:text-sm text-xs px-5  ':'text-sm'} text-gray-800`}>
+                      <h2 className={`my-0.5 lg:text-md md:text-md lg:font-small text-center ${item.club_name.length > 18 ? 'sm:text-sm text-xs px-5  ' : 'text-sm'} text-gray-800`}>
                         {item.club_name}
                       </h2>
                     </div>
