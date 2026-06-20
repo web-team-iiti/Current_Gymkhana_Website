@@ -10,7 +10,7 @@ import testImg from "../../../../public/assests/clubHeads/img.png";
 import insta_icon from "../../../../public/assests/clubHeads/social_logo/ig_black.webp";
 import li_icon from "../../../../public/assests/clubHeads/social_logo/li_blackLogo.png";
 import web from "../../../../public/assests/clubHeads/photos/Abhishek_GymkhanaWebTeam.jpeg";
-import nologo from "../../../../public/assests/sports/nologo.png"
+import vyoman from "../../../../public/assests/clubHeads/photos/vyoman.jpeg";
 
 export default function Hero() {
   const clubArr = [
@@ -22,14 +22,14 @@ export default function Hero() {
       club_insta: "https://www.instagram.com/iabhi_shekkk/",
       img: web,
     },
-    // {
-    //   club_name: "Team Vyoman",
-    //   head: "No Head Assigned",
-    //   post: "Head",
-    //   club_lin: "#",
-    //   club_insta: "#",
-    //   img: nologo,
-    // },
+    {
+      club_name: "Team Vyoman",
+      head: "Gaurav Singh",
+      post: "Head",
+      club_lin: "https://www.linkedin.com/in/gaurav-singh-7a476031b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      club_insta: "https://www.instagram.com/gaurav_singh2299?igsh=dDIwZHVmaXUxaGFw",
+      img: vyoman,
+    },
   ];
   return (
     <>

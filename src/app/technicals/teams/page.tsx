@@ -19,7 +19,7 @@ export default function Hero() {
       "imageSrc": webgym,
     },
     {
-      "more":"#",
+      "more":"https://www.instagram.com/vyoman_iitindore?igsh=MWtwdTB2OHI1Nmd0bA==",
       "title": "Team Vyoman",
       "imageSrc": vyoman,
     },
