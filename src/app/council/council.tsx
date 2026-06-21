@@ -5,6 +5,7 @@ import Logo from "../../../public/IITI3.jpg";
 import Acadlogo from "../../../public/acadlogo.jpg";
 import Cultlogo from "../../../public/cultlogo.jpg";
 import sntlogo from "../../../public/SNT.jpg"
+import preslogo from "../../../public/pres_logo.jpeg"
 export default function Council(){
     return(
         <div className="overflow-hidden flex flex-row max-[950px]:flex-col py-20 bg-[url(/bg7.jpg)] bg-cover bg-center">
@@ -31,6 +32,21 @@ export default function Council(){
                       className="p-5 mb-1 flex max-[450px]:flex-col"
                     >
                     <div className="min-w-[120px] max-[450px]:mb-3 max-[550px]:w-[5vw] max-[550px]:min-w-[80px] max-[550px]:max-h-[11vh] w-[8vw] max-h-[16vh] text-center items-center rounded-full mr-1 bg-black">
+                        <Image src={preslogo} alt="/" className="h-[15vh] max-[550px]:h-[10vh] rounded-full max-[450px]:shadow-[0_7px_1px_rgb(0,0,0)] "></Image> 
+                        </div>
+                    <div className="w-[45vw] max-[450px]:w-[85vw] max-[950px]:w-[70vw] max-[950px]:min-h-[15vh] h-auto min-h-[16vh] rounded-xl bg-gradient-to-r from-yellow-500 via-yellow-500 to-yellow-400 overflow-hidden">
+                    <p className="text-white font-bold font-serif text-xl pt-2 pl-4">Presidential Council</p>
+                        <p className="text-white font-light text-sm mt-1  pl-4">The Presidential Council of IIT Indore assists the president in discharging his/her duties, and any other duty assigned by the student senate.</p>
+                        </div>
+                    </motion.div>
+                    <motion.div 
+                      initial={{ opacity: 0, x: 50 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: false, margin: "-50px" }}
+                      transition={{ duration: 0.5, delay: 0.2 }}
+                      className="p-5 mb-1 flex ml-10 max-[550px]:ml-1 max-[450px]:flex-col"
+                    >
+                    <div className="min-w-[120px] max-[450px]:mb-3 max-[550px]:w-[5vw] max-[550px]:min-w-[80px] max-[550px]:max-h-[11vh] w-[8vw] max-h-[16vh] text-center items-center rounded-full mr-1 bg-black">
                         <Image src={sntlogo} alt="/" className="h-[15vh] max-[550px]:h-[10vh] rounded-full max-[450px]:shadow-[0_7px_1px_rgb(0,0,0)] "></Image> 
                         </div>
                     <div className="w-[45vw] max-[450px]:w-[85vw] max-[950px]:w-[70vw] max-[950px]:min-h-[15vh] h-auto min-h-[16vh] rounded-xl bg-gradient-to-r from-yellow-500 via-yellow-500 to-yellow-400 overflow-hidden">
@@ -42,8 +58,8 @@ export default function Council(){
                       initial={{ opacity: 0, x: 50 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: false, margin: "-50px" }}
-                      transition={{ duration: 0.5, delay: 0.2 }}
-                      className="p-5 mb-1 flex ml-12 max-[550px]:ml-2 max-[450px]:flex-col"
+                      transition={{ duration: 0.5, delay: 0.3 }}
+                      className="p-5 mb-1 flex ml-20 max-[550px]:ml-2 max-[450px]:flex-col"
                     >
                     <div className="min-w-[120px] max-[450px]:mb-3 max-[550px]:w-[5vw] max-[550px]:min-w-[80px] max-[550px]:max-h-[11vh]  w-[8vw] max-h-[16vh] text-center items-center rounded-full mr-1 bg-black">
                         <Image src={Cultlogo} alt="/" className="h-[15vh] max-[550px]:h-[10vh] rounded-full max-[450px]:shadow-[0_7px_1px_rgb(0,0,0)]"></Image> 
@@ -57,8 +73,8 @@ export default function Council(){
                       initial={{ opacity: 0, x: 50 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: false, margin: "-50px" }}
-                      transition={{ duration: 0.5, delay: 0.3 }}
-                      className="p-5 flex ml-12 max-[550px]:ml-2 max-[450px]:flex-col"
+                      transition={{ duration: 0.5, delay: 0.4 }}
+                      className="p-5 mb-1 flex ml-10 max-[550px]:ml-1 max-[450px]:flex-col"
                     >
                     <div className="min-w-[120px] max-[450px]:mb-3 max-[550px]:w-[5vw] max-[550px]:min-w-[80px] max-[550px]:max-h-[11vh]  w-[8vw] max-h-[16vh] text-center items-center rounded-full mr-1 bg-black">
                         <Image src={Logo} alt="/" className="h-[15vh] max-[550px]:h-[10vh] rounded-full max-[450px]:shadow-[0_7px_1px_rgb(0,0,0)]"></Image> 
@@ -72,7 +88,7 @@ export default function Council(){
                       initial={{ opacity: 0, x: 50 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: false, margin: "-50px" }}
-                      transition={{ duration: 0.5, delay: 0.4 }}
+                      transition={{ duration: 0.5, delay: 0.5 }}
                       className="p-5 mb-1 flex max-[450px]:flex-col"
                     >
                     <div className="min-w-[120px] max-[450px]:mb-3 max-[550px]:w-[5vw] max-[550px]:min-w-[80px] max-[550px]:max-h-[11vh] max-lg:w-[8.5vw] w-[8vw] max-h-[16vh] text-center items-center rounded-full mr-1 bg-black">
