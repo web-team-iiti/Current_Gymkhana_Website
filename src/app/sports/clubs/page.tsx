@@ -19,6 +19,7 @@ import cycling from "../../../../public/assests/sports/cycling.jpeg";
 import badminton from "../../../../public/assests/sports/Badminton_club_logo.png";
 import nologo from "../../../../public/assests/sports/nologo.png"
 import hockey from "../../../../public/assests/sports/hockey.jpeg"
+import wt from "../../../../public/assests/sports/weightlifting.jpeg"
 import HeadsPage from "../clubHeads/page";
 
 import { before } from "node:test";
@@ -75,11 +76,11 @@ export default function Hero() {
       "title": "Volleyball Club",
       "imageSrc": vb,
     },
-    // {
-    //   "website":"https://www.instagram.com/volleyball.iiti/",
-    //   "title": "Weightlifting Club",
-    //   "imageSrc": nologo,
-    // },
+    {
+      "website":"https://www.instagram.com/volleyball.iiti/",
+      "title": "Weightlifting Club",
+      "imageSrc": wt,
+    },
     {
       "website":"https://www.instagram.com/volleyball.iiti/",
       "title": "Hockey Club",
